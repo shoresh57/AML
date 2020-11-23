@@ -1,0 +1,29 @@
+name: visualization
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.6
+  - pandas
+  - numpy
+  - matplotlib
+  - cufflinks-py
+  - nbformat
+  - ipython
+  - ipywidgets
+  - scipy
+  - ipykernel
+  - seaborn
+  - pyyaml
+  - scikit-learn
+  - statsmodels
+  - chart-studio
+
+#  - os
+#  - [collections*](https://docs.python.org/2/library/collections.html)
+#  - [io*](https://docs.python.org/2/library/io.html)
+#  - sys
+#  - operator
+# - [errno*](https://docs.python.org/2/library/errno.html)
+#   - string
+#  - functools
